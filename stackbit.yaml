@@ -1,0 +1,102 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  page_1:
+    type: page
+    label: Page 1
+    match:
+      - _drafts/ES2015-note.md
+      - _drafts/WebSocket.md
+      - _drafts/threeJS-light-shadow.md
+      - _posts/2015-02-10-welcome-to-jekyll.markdown
+      - _posts/2015-02-12-create-my-blog-with-jekyll.md
+      - _posts/2015-03-21-teach-girlfriend-html-css.md
+      - _posts/2015-03-26-sublimeLinter.md
+      - _posts/2015-04-06-arrays-similar.md
+      - _posts/2015-04-12-Syncing-a-fork.md
+      - _posts/2015-04-15-baidu-ife-1.md
+      - _posts/2015-04-22-baidu-ife-2-javascript.md
+      - _posts/2015-05-18-front-end-tools.md
+      - _posts/2015-05-20-scope.md
+      - _posts/2015-06-01-lenovo-front-end-interview.md
+      - _posts/2015-06-11-JavaScript-function.md
+      - _posts/2015-06-12-JavaScript-this.md
+      - _posts/2015-06-14-JavaScript-closure.md
+      - _posts/2015-06-15-JavaScript-Object-Oriented.md
+      - _posts/2015-06-17-web-app.md
+      - _posts/2015-06-18-weinre.md
+      - _posts/2015-07-09-JavaScript-Net.md
+      - _posts/2015-07-24-low-IE-click-empty-block-bug.md
+      - _posts/2015-12-31-History-API.md
+      - _posts/2016-03-12-jekyll-theme-version-2.0.md
+      - _posts/2016-05-06-regular-expression-group.md
+      - _posts/2016-06-07-JavaScript-good-parts-note1.md
+      - _posts/2016-06-08-JavaScript-good-parts-note2.md
+      - _posts/2016-06-10-JavaScript-good-parts-note3.md
+      - _posts/2016-06-14-how-to-use-babel.md
+      - _posts/2016-07-07-git-clone-not-master-branch.md
+      - _posts/2016-10-16-shuffle-algorithm.md
+      - _posts/2016-11-22-js-create-file-and-download.md
+      - _posts/2016-11-25-how-to-write-a-count-down.md
+      - _posts/2018-06-01-animation.md
+      - _posts/2018-09-10-lottie.md
+      - _posts/2018-10-10-vscode-plugin-schedule.md
+      - _posts/2019-07-18-dialog-queue.md
+      - _posts/2020-03-01-react-hooks1-useState.md
+      - _posts/2020-05-11-react-hooks2-useEffect.md
+      - _posts/2020-05-12-react-hooks3-useContext.md
+      - _posts/2020-05-13-react-hooks4-useReducer.md
+      - _posts/2020-05-18-react-hooks5-useCallback.md
+      - _posts/2020-05-19-react-hooks6-useMemo.md
+      - _posts/2020-05-26-react-hooks7-useRef.md
+      - _posts/2020-05-27-react-hooks8-customHooks.md
+      - _posts/2021-03-01-spring-animation-framer-motion.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: categories
+        label: Categories
+      - type: string
+        name: tags
+        label: Tags
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: excerpt
+        label: Excerpt
+      - type: boolean
+        name: mathjax
+        label: Mathjax
+      - type: string
+        name: author
+        label: Author
+  page:
+    type: page
+    label: Page
+    folder: page
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: string
+        name: icon
+        label: Icon
+      - type: string
+        name: type
+        label: Type
